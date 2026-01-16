@@ -126,6 +126,7 @@ const JobSearchPage = () => {
                   minWidth: "110px",
                   height: "30px",
                   marginLeft: "10px",
+                  color:"white"
                 }}
               >
                 Find jobs
