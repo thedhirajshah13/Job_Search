@@ -7,55 +7,36 @@ The backend efficiently handles large datasets using server-side filtering and p
 
 🧩 Features
 Frontend
-
-Two-panel desktop layout:
-
-Left panel: List of job postings
-
-Right panel: Selected job details
-
-Location-based job search
-
-Debounced search input to avoid unnecessary API calls
-
-“Find jobs” button for explicit search
-
-Scroll-based pagination for loading more jobs
-
-Clean, minimal UI built with Tailwind CSS
+- Two-panel desktop layout:
+- Left panel: List of job postings
+- Right panel: Selected job details
+- Location-based job search
+- Debounced search input to avoid unnecessary API calls
+- “Find jobs” button for explicit search
+- Scroll-based pagination for loading more jobs
+- Clean, minimal UI built with Tailwind CSS
 
 Backend
-
-REST API built with Express.js
-
-MongoDB database with Mongoose
-
-Jobs loaded from provided JSON data
-
-Server-side filtering by location
-
-Server-side pagination using page and limit
-
-Indexed fields for better query performance
+- REST API built with Express.js
+- MongoDB database with Mongoose
+- Jobs loaded from provided JSON data
+- Server-side filtering by location
+- Server-side pagination using page and limit
+- Indexed fields for better query performance
 
 🛠 Tech Stack
+
 Frontend
-
 - React.js (Vite)
-
 - Tailwind CSS
-
 - Axios
 
 Backend
-- 
 - Node.js
-- 
 - Express.js
-- 
 - MongoDB
-- 
 - Mongoose
+
 
 📁 Project Structure
 
@@ -152,4 +133,5 @@ GET /api/jobs?location=Delhi&page=1&limit=20
 
 👤 Author
 Dhiraj Shah
+
 Full-Stack Developer
