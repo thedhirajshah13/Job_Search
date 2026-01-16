@@ -12,7 +12,7 @@ app.use(express.json()); // Middleware to parse JSON bodies
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://job-search-pi-ashen.vercel.app",
   })
 ); // CORS Middleware
 
