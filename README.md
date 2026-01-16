@@ -126,8 +126,8 @@ GET /api/jobs?location=Delhi&page=1&limit=20
 - Caching for frequently searched locations
 
 ✅ Status
-- Backend:  Completed
-- Frontend: CompletedPerformance 
+- Backend:  Completed, link: https://jobsearch-production-a806.up.railway.app
+- Frontend: CompletedPerformance, link: https://job-search-pi-ashen.vercel.app
 - handling: ImplementedTask 
 - requirements: Fully met
 
@@ -135,3 +135,4 @@ GET /api/jobs?location=Delhi&page=1&limit=20
 Dhiraj Shah
 
 Full-Stack Developer
+
